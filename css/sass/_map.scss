@@ -46,10 +46,6 @@
       font-family: $hashtag-font-family;
       font-size: $hashtag-font-size;
       color: $hashtag-color;
-      text-decoration: none;
-      &:hover {
-        text-decoration: underline;
-      }
     }
   }
 }

@@ -86,9 +86,8 @@ function createHashtagList(hashtags, url){
   list.setAttribute('class', 'list-inline');
   hashtags.forEach( function(el, index) {
     var li = document.createElement("li");
-    var ht = document.createElement("a");
+    var ht = document.createElement("span");
     ht.setAttribute('class', 'hashtag');
-    ht.setAttribute('href', url);
     var text = document.createTextNode('#' + el);
     ht.appendChild(text);
     li.appendChild(ht);

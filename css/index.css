@@ -233,9 +233,4 @@ ol {
   font-family: "Varela Round", sans-serif;
   font-size: 12px;
   color: #F58D8E;
-  text-decoration: none;
-}
-
-#map .custom .leaflet-popup-content-wrapper .hashtag:hover {
-  text-decoration: underline;
 }
