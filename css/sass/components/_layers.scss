@@ -41,9 +41,14 @@
     .layer-checkboxes {
       color: $layers;
       margin-bottom: 20px;
-    }
-    .layer-checkboxes input[type="checkbox"] {
-      margin: 15px 10px 0 15px;
+      input[type="checkbox"] {
+        margin: 15px 10px;
+        transform:scale(1.5, 1.5);
+      }
+      img {
+        vertical-align: middle;
+        width: 45px;
+      }
     }
   }
 }

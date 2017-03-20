@@ -107,7 +107,12 @@ ol {
     margin-bottom: 20px;
   }
   #layers .layer-checkboxes input[type="checkbox"] {
-    margin: 15px 10px 0 15px;
+    margin: 15px 10px;
+    transform: scale(1.5, 1.5);
+  }
+  #layers .layer-checkboxes img {
+    vertical-align: middle;
+    width: 45px;
   }
 }
 
